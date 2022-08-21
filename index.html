@@ -5,35 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="menu">
-        <a class="menu__link logo" href="#"
+        <a class="menu__link logo" href="index.html"
           ><span class="highlight">Web</span>Studio</a
         >
         <ul class="menu__item-list">
           <li class="menu__item">
-            <a class="menu__link" href="#"
-              ><span class="highlight">Agencja</span></a
+            <a class="menu__link menu__link--active" href="#">Agencja</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link menu__link--active" href="portfolio.html"
+              >Portfolio</a
             >
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Portfolio</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Kontakt</a>
+            <a class="menu__link menu__link--active" href="#">Kontakt</a>
           </li>
         </ul>
       </nav>
       <ul class="header__contact">
         <li class="header__contact-item">
-          <a class="header__contact-link" href="mailto:info@devstudio.com"
-            ><span class="highlight">info@devstudio.com</span></a
+          <a
+            class="header__contact-link header__contact-link--active"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
           >
         </li>
         <li class="header__contact-item">
-          <a class="header__contact-link" href="tel:+48111111111"
+          <a
+            class="header__contact-link header__contact-link--active"
+            href="tel:+48111111111"
             >+48 111 111 111</a
           >
         </li>
@@ -159,7 +170,7 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer__link logo" href="#"
+      <a class="footer__link logo" href="index.html"
         ><span class="highlight">Web</span>Studio</a
       >
       <address>
